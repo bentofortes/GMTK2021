@@ -1,0 +1,5 @@
+[gd_scene format=2]
+
+[node name="Orbit" type="Line2D"]
+width = 2.0
+default_color = Color( 1, 1, 1, 1 )

@@ -8,9 +8,20 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Node",
+"class": "BodyObject",
+"language": "GDScript",
+"path": "res://Scripts/body_obj.gd"
+}, {
+"base": "Node",
+"class": "GlobalHelper",
+"language": "GDScript",
+"path": "res://Scripts/global_helper.gd"
+} ]
 _global_script_class_icons={
-
+"BodyObject": "",
+"GlobalHelper": ""
 }
 
 [application]
